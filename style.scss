@@ -1,0 +1,31 @@
+.nucleus {
+    position: absolute;
+    left: 700px;
+    top: 400px;
+    transform: translate(-50%, -50%);
+    width: 40px;
+    height: 40px;
+    background-color: purple;
+    border-radius: 50%;
+}
+
+.orbit {
+    position: absolute;
+    left: 500px;
+    top: 200px;
+    width: 400px;
+    height: 400px;
+    border: 1px solid lightblue;
+    border-radius: 50%;
+}
+
+.electron {
+    position: absolute;
+    left: 500px;
+    top: 400px;
+    width: 20px;
+    height: 20px;
+    background-color: blue;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+}
